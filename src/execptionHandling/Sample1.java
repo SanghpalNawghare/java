@@ -1,0 +1,20 @@
+package execptionHandling;
+
+public class Sample1 
+{
+   public static void main(String[] args) 
+   {
+	   String [] ar= {"akash","vishal","kiran"};
+	   
+	   try
+	   {
+		  System.out.println(ar[5]);
+	   }
+	   catch (ArrayIndexOutOfBoundsException e) 
+	   {
+		  System.out.println("ArrayIndexOutOfBoundExecption");
+	   }
+	   
+	   System.out.println("hello");
+   }
+}
